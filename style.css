@@ -1,0 +1,47 @@
+.container {
+    text-align: center;
+
+}
+
+form {
+    margin: 25px auto;
+    width: 500px;
+
+}
+
+.inputContainer {
+    position: relative;
+    display: inline-block;
+}
+
+.input, .searchButton {
+    font-size: 1rem;
+    padding: 0.8rem;
+}
+
+.searchButton {
+    border: 2px solid darkblue;
+    background-color: gray;
+    color: white;
+}
+
+.autoCompleteList {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 100%;
+    text-align: left;
+    background-color: white;
+    width: 100%;
+}
+
+.listItem {
+    border: 1px solid lightgray;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.listItem:hover {
+    background-color: lightgray;
+}
